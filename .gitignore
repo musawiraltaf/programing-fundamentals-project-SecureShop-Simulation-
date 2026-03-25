@@ -1,0 +1,16 @@
+# Compiled Object files
+*.o
+
+# Executables
+*.exe
+*.out
+*.app
+SecureShop
+run
+
+# Runtime Database Files
+*.txt
+
+# IDE/Editor folders
+.vscode/
+.idea/

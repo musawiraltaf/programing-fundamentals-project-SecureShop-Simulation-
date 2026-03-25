@@ -9,6 +9,7 @@ This package contains a commented version of the uploaded PF project source file
 - `customer.cpp`
 - `employee.cpp`
 - `main.cpp`
+- `ui.cpp`
 - `utils.cpp`
 
 ### Header files
@@ -78,12 +79,11 @@ These runtime data files were **not** part of the uploaded source snapshot.
 
 ## Important note about missing implementation
 
-The uploaded files included `ui.h`, but no matching UI implementation source file (for example `ui.cpp`) was provided.  
-That means the packaged source is now **well documented**, but it may still require the missing UI implementation from your original project in order to compile and link successfully.
+*(No missing implementations)*
 
 ## Suggested compile command
 
-If your missing role/data/UI files are present, a typical build command would look like:
+If you have g++ installed, a typical build command looks like:
 
 ```bash
 g++ main.cpp admin.cpp customer.cpp employee.cpp utils.cpp ui.cpp -o secureshop
